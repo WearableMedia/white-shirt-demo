@@ -19,8 +19,8 @@ Adafruit_NeoPixel strip = Adafruit_NeoPixel(31, PIN, NEO_GRB + NEO_KHZ800);
 // pixel power leads, add 300 - 500 Ohm resistor on first pixel's data input
 // and minimize distance between Arduino and first pixel.  Avoid connecting
 // on a live circuit...if you must, connect GND first.
-
-int myPixels[12] = {2, 3, 8, 9, 14, 15, 18, 19, 23, 24, 28, 29};//The pixels in the curve
+int myPixels[12] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
+//int myPixels[12] = {2, 3, 8, 9, 14, 15, 18, 19, 23, 24, 28, 29};//The pixels in the curve
 int dimPixels[19] = {0, 1, 4, 5, 6, 7, 10, 11, 12, 13, 16, 17, 20, 21, 22, 25, 26, 27, 30};
 
 float b = 0;
